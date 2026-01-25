@@ -1797,14 +1797,7 @@ static HashMap<String, Dictionary> make_structure_samples() {
 
 	{
 		Dictionary d;
-		d.set("platinum_sponsors", arr);
-		d.set("gold_sponsors", arr);
-		d.set("silver_sponsors", arr);
-		d.set("bronze_sponsors", arr);
-		d.set("mini_sponsors", arr);
-		d.set("gold_donors", arr);
-		d.set("silver_donors", arr);
-		d.set("bronze_donors", arr);
+		d.set("donors", arr);
 		res["Engine::get_donor_info"] = d;
 	}
 
