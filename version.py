@@ -11,4 +11,4 @@ docs = "latest"
 godot_major = 4
 godot_minor = 5
 godot_patch = 2
-godot_status = "stable"
+godot_status = "unstable"
